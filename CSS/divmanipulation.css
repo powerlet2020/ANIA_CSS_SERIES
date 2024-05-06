@@ -1,0 +1,21 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    background: lightgreen;
+    border-radius: 50px;
+}
+.oval{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    margin-top: 50px;
+    border-radius: 100px/50px;
+}
+.rhombus{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transform: skew(-20deg);
+    margin-top: 50px;
+    margin-left: 50px;
+}
