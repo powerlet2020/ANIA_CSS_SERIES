@@ -1,0 +1,18 @@
+.div1{
+    height: 300px;
+    width: 700px;
+    background-image: linear-gradient(37deg, green, blue, yellow,red);
+}
+.div2{
+    height: 300px;
+    width: 700px;
+    background-image:repeating-linear-gradient(green 10%, blue 20%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div3{
+    height: 300px;
+    width: 700px;
+    background-image: radial-gradient( circle,red 10%, orange 15%,yellow 20%,green,blue 40%);
+
+}
