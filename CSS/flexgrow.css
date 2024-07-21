@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#flex-container{
+    display: flex;
+    height: 100px;
+    border: 2px solid black;
+
+}
+
+.flex-item{
+    height:50px ;
+    width: 50px;
+    background:rgb(105, 90, 201);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(119, 222, 200);
+    border: solid 2px rgb(73, 62, 145);
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .............flex grow .................... */
+/* #square-1{
+    flex-grow: 3;
+}
+#square-2{
+    flex-grow: 2;
+}
+#square-3{
+    flex-grow: 1;
+}
+#square-4{
+    flex-grow: 4;
+} */
+
+/* ..................flex shrink ........................ */
+
+#square-2{
+    flex-shrink: 10;
+}
+
+
+/* ..............special case ..................... */
+#square-3{
+    align-self: center;
+}

@@ -1,0 +1,20 @@
+button{
+    border: 2px solid green;
+    background: white;
+    padding: 12px 20px;
+    color: grey;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+/* .......:hover ..:active....:disabled....... */
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+button:active{
+    background: red;
+    border: 2px solid red;
+}

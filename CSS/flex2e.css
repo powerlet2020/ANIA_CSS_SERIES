@@ -1,0 +1,38 @@
+
+#flex-container{
+    /*............    exercise 1 ............. */
+    /* display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center; */
+
+    /* ................exercise 2  ................ */
+    /* display: flex;
+    flex-direction: column-reverse;
+    align-items: center; */
+    /* .............exercise 3....................... */
+    /* display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+    /* ........exercise 4 .................. */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+
+.flex-item{
+    height:50px ;
+    width: 50px;
+    background:rgb(105, 90, 201);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(119, 222, 200);
+    border: solid 2px rgb(73, 62, 145);
+    font-family: 'Courier New', Courier, monospace;
+}
