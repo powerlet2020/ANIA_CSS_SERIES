@@ -1,0 +1,17 @@
+#browser-tag{
+    display: none;
+}
+
+#mobile-tag{
+    display: block;
+}
+
+@media only screen and (min-width:650px) {
+    #browser-tag{
+        display: block;
+    }
+    
+    #mobile-tag{
+        display: none;
+    }
+}

@@ -1,0 +1,275 @@
+  html{ 
+    scroll-behavior: smooth;
+  }
+ body{
+    background: rgb(41, 43, 53);
+    margin: 0;
+    padding: 0;
+    font-family: Lato,  Times, serif;
+ }
+ 
+ 
+ nav{
+    background-color: rgb(55, 77, 95);
+ }
+ 
+ nav .tech-container img{
+    height: 30px;
+ }
+
+ nav .nav-container{
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ nav h3{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin: 0 30px 0 0;
+ }
+
+ nav .logo{
+    height: 30px;
+    margin: 0 10px 0 0;
+ }
+
+ nav .menu-container, .tech-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+ }
+
+ nav .nav-link{
+    color: rgb(216, 218, 221);
+    text-decoration: none;
+    padding:  8px 12px ;
+    border-radius: 6px;
+ }
+
+ nav .nav-link:hover{
+    background: rgb(57, 67, 83);
+ }
+
+ nav .hamburger{
+    display: none;
+ }
+ .hidden{
+   display: none !important;
+ }
+
+ nav .hamburger-list-container .nav-link{
+   display:block;
+ }
+
+
+ @media (max-width:1000px) {
+   nav h3{
+      display: none;
+   } 
+ }
+
+ @media (max-width:600px) {
+   nav .hamburger{
+      display: block;
+      background: transparent;
+      border: none;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+   }
+   .menu-container .nav-link{
+      display: none;
+   }
+ }
+
+ .socials{
+   position: fixed;
+   top: 35%;
+   right: 0;
+   background: rgb(250, 100, 175);
+   width: 50px;
+   padding: 10px 5px;
+   border-radius: 20px 0 0 20px;
+ }
+
+ .socials img{
+   width: 100%;
+ }
+
+ @media (max-width:600px) {
+   .socials{
+      display: none;
+   }
+ }
+
+ section{
+  color: rgb(216, 216, 216);
+ }
+  h1{
+   margin:0;
+   font-size: 70px;
+  }
+  p{
+   font-size: 18px;
+  }
+ .main-section{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+ }
+ .introduction{
+   width: 40vw;
+   padding: 30px;
+   border-left: 4px solid rgb(255, 255, 255);
+ }
+ .headshot{
+   width: 335px;
+   border-radius: 50%;
+   padding: 40px;
+   margin-left: 10vh;
+ }
+
+ @media  (max-width:1000px) {
+   .main-section{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   
+   .introduction{
+      width: 90vw;
+      border-left: none;
+      text-align: center;
+   }
+   .headshot{
+      margin-left: 0;
+   }
+ }
+
+ .arrow{
+   border: solid rgb(255, 255, 255);
+   border-width: 0 8px  8px 0;
+   padding: 15px;
+   display: inline-block;
+   rotate: 45deg;
+ }
+ .bounce{
+   padding: 50px 0 0 50px;
+   animation: bounce 2s infinite;
+ }
+ @keyframes bounce{
+   0%,
+   20%,
+   50%,
+   80%,
+   100%{
+      transform: translateY(0);
+   }
+   40%{
+      transform: translateY(-30px);
+   }
+   60%{
+      transform: translateY(-15px);
+   }
+ }
+
+ .work-section{
+   background-color: rgb(59, 62, 77);
+   padding: 80px 50px;
+ }
+
+ section h3{
+   font-size: 30px;
+   margin: 0;
+ }
+
+ section a{
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+ }
+
+ .work-card-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .work-card{
+   width:25%;
+   background-color: rgb(29, 31, 38);
+   margin: 10px;
+   padding: 0 50px 50px 50px;
+ }
+
+ @media screen  and (max-width:1000px){
+  .work-card{
+    width: 100%;
+  }
+  .bounce{
+    padding: 50px 0 0 0 ;
+  }
+  
+ }
+
+ .html{
+   border-top: solid 8px rgb(242, 128, 87);
+ }
+
+ .css{
+   border: solid 8px rgb(88, 130, 203);
+ }
+ .js{
+   border: solid 8px rgb(3, 114, 114);
+ }
+ .react{
+   border: solid 8px rgb(208, 219, 52);
+ }
+
+ 
+ .about-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ @media screen  and (max-width:1000px){
+  .about-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-container, .quote-container{
+    font-size: 40px;
+    font-style: italic;
+  }
+ }
+
+ .quote-container{
+    width: 40%;
+    padding: 40px;
+ }
+ .about-container{
+     width: 30%;
+     padding: 80px 0;
+ }
+
+ .quote{
+  font-size: 40px;
+  font-style: italic;
+ }
+
+ .quote-container p{
+  float: right;
+ }
+
+ footer{
+  background-color: rgb(3, 114, 144);
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+ }
+ 
+ footer a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ }
